@@ -1,4 +1,4 @@
-provider "aws" {
+/*provider "aws" {
      region = "us-east-2"  # Set your desired AWS region
 }
 resource "aws_instance" "this" {
@@ -27,3 +27,4 @@ resource "aws_vpc_security_group_egress_rule" "allow_all_traffic_ipv4" {
   cidr_ipv4         = "0.0.0.0/0"
   ip_protocol       = "-1" # semantically equivalent to all ports
 }
+*/

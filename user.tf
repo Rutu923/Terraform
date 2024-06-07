@@ -1,4 +1,4 @@
-provider "aws" {
+/*provider "aws" {
      region = "us-east-2"  # Set your desired AWS region
 }
 resource "aws_iam_user" "rutuja" {
@@ -24,3 +24,4 @@ resource "aws_iam_user_policy" "terra_user_policy" {
   policy = data.aws_iam_policy_document.for_terra_user.json
 }
 
+*/
